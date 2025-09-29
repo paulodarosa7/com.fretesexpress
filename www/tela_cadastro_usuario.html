@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FretesExpress - Cadastro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tela_cadastro.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">FretesExpress</h1>
+
+<form class="cadastroTela">
+  <p class="title">cadastre-se</p>
+
+  <input type="text" placeholder="nome" required>
+  <input type="email" placeholder="email" required>
+  <input type="email" placeholder="confirme seu email" required>
+  <input type="tel" placeholder="número de telefone" required>
+  <input type="text" placeholder="cpf" required>
+  <input type="password" placeholder="senha" required>
+  <input type="password" placeholder="confirme sua senha" required>
+
+  <p class="title">insira sua data de nascimento</p>
+  <div class="aniversario">
+    <input type="text" placeholder="dia" maxlength="2" required>
+    <input type="text" placeholder="mês" maxlength="2" required>
+    <input type="text" placeholder="ano" maxlength="4" required>
+  </div>
+
+  <button type="submit" id="btnEntrarUsuario">cadastrar</button>
+</form>
+
+<a href="tela_cadastro_freteiro.html" class="cadastro_freteiro">torne-se um freteiro!</a>
+
+
+  </div>
+    <script src="js/cadastro_usuario.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  background-color: #000;
+  color: #ffcb05;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  margin-bottom: 15px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+input,
+select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #ffcb05;
+}
+
+button {
+  background-color: #ffcb05;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #e6b805;
+}
+
+.autocomplete {
+  position: relative;
+  background: #111;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ffcb05;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  border-radius: 0 0 5px 5px;
+  z-index: 1000;
+}
+
+.autocomplete div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.autocomplete div:hover {
+  background-color: #ffcb05;
+  color: #000;
+}
+
+.preco {
+  background: #222;
+  border: 1px solid #ffcb05;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+}

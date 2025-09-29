@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FretesExpress - Cadastro Freteiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tela_cadastro.css">
+</head>
+<body>
+  <div class="container">
+
+<h1 class="logo">FretesExpress</h1>
+
+<!-- Tela 1 -->
+<div id="telaCadastro1">
+  <form class="cadastroTela">
+      <p class="title">cadastre-se</p>
+
+      <input type="text" placeholder="nome" required>
+      <input type="email" placeholder="email" required>
+      <input type="email" placeholder="confirme seu email" required>
+      <input type="tel" placeholder="número de telefone" maxlength="11" required>
+      <input type="text" placeholder="cpf" maxlength="14" required>
+      <input type="password" placeholder="senha" required>
+      <input type="password" placeholder="confirme sua senha" required>
+
+      <p class="title">insira sua data de nascimento</p>
+      <div class="aniversario">
+        <input type="text" placeholder="dia" maxlength="2" required>
+        <input type="text" placeholder="mês" maxlength="2" required>
+        <input type="text" placeholder="ano" maxlength="4" required>
+      </div>
+
+    <button type="submit" id="btnContinuar">continuar</button>
+    <a href="tela_cadastro_usuario.html" class="cadastro_usuario">cadastre-se como um solicitante</a>
+
+  </form>
+</div>
+
+<!-- Tela 2 -->
+<div  id="telaCadastro2">
+  <form class="cadastroTela">
+    <p class="title">complete seu cadastro</p>
+
+    <input type="text" placeholder="cidade" required>
+    <input type="text" placeholder="estado" required>
+
+    <p class="subtitle">documentos obrigatórios:</p>
+    <ul class="docs-list">
+      <li>CNH</li>
+      <li>CRLV</li>
+      <li>Comprovante de Residência</li>
+    </ul>
+
+    <div class="anexar">
+      <label for="cnh">Anexar CNH</label>
+      <input type="file" id="cnh" name="cnh" accept=".pdf,.jpg,.png" required>
+
+      <label for="crlv">Anexar CRLV</label>
+      <input type="file" id="crlv" name="crlv" accept=".pdf,.jpg,.png" required>
+
+      <label for="residencia">Anexar Comprovante de Residência</label>
+      <input type="file" id="residencia" name="residencia" accept=".pdf,.jpg,.png" required>
+    </div>
+
+    <p class="aviso"><b>seus documentos passarão por análise. o retorno é de até 7 dias.</b></p>
+
+    <!-- Aqui pode ser submit, porque é a etapa final -->
+    <button type="submit" id="btnEntrarFreteiro">partiu entrega!</button>
+  </form>
+</div>
+
+
+  </div>
+
+  <script src="js/cadastro_freteiro.js"></script>
+
+</body>
+</html>

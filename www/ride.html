@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FretesExpress</title>
+  <link rel="stylesheet" href="css/ride.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+<script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>FretesExpress</h1>
+
+    <input id="origem" placeholder="Origem: Digite o endereço" autocomplete="off" />
+    <div id="autocomplete-origem" class="autocomplete"></div>
+
+    <input id="destino" placeholder="Destino: Digite o endereço" autocomplete="off" />
+    <div id="autocomplete-destino" class="autocomplete"></div>
+
+    <select id="veiculo">
+      <option value="caminhao">Caminhão</option>
+      <option value="caminhonete">Caminhonete</option>
+      <option value="carro">Carro</option>
+    </select>
+
+    <input id="peso" type="number" placeholder="Peso (kg)" min="1" />
+
+    <button id="pedirFreteBtn">Pedir Frete</button>
+
+    <div id="preco" class="preco"></div>
+
+    <div id="map" style="height: 300px; margin-top: 10px;"></div>
+
+    <button id="sairBtn">Sair</button>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet/dist/leaflet.js"
+  ></script>
+  <script src="js/ride.js"></script>
+</body>
+</html>
