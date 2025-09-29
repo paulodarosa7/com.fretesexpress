@@ -28,7 +28,3 @@ Android Studio → utilizado como emulador e ambiente de testes.
 
 🚧 Em desenvolvimento – novas funcionalidades de cadastro de fretes e integração com backend serão adicionadas.
 
----
-### 👤 Autor
-
-Paulo H. da Rosa e Wuesley Soares Maximiano
