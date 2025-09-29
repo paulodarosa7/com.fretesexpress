@@ -28,3 +28,7 @@ Android Studio → utilizado como emulador e ambiente de testes.
 
 🚧 Em desenvolvimento – novas funcionalidades de cadastro de fretes e integração com backend serão adicionadas.
 
+---
+
+Última modificação:
+Resolvendo problema de timeout no android. O Leaflet não consegue puxar a informação do GPS por conta do pouco tempo de timeout. Timeout atual: 60 segundos.
