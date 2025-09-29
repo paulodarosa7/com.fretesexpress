@@ -1,8 +1,10 @@
 # 🚚 FretesExpress
 
-O FretesExpress é um aplicativo híbrido desenvolvido para facilitar a conexão entre motoristas e clientes que precisam solicitar serviços de frete.
+O **FretesExpress** é um aplicativo híbrido desenvolvido para facilitar a conexão entre motoristas e clientes que precisam solicitar serviços de frete, de forma rápida, intuitiva e eficiente.
 
-Com uma interface simples e intuitiva, o usuário pode cadastrar, visualizar e gerenciar pedidos de transporte de forma prática pelo celular.
+O aplicativo conta com uma interface maneira, simples e prática, permitindo que o usuário cadastre, visualize e gerencie pedidos de transporte diretamente pelo celular.
+
+Além disso, o **FretesExpress** abre espaço para **MEIs, autônomos e profissionais independentes** que desejam oferecer serviços de transporte de cargas para outras pessoas, tornando o processo mais acessível e confiável.
 
 ---
 
