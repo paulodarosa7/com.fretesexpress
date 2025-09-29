@@ -6,7 +6,7 @@ Com uma interface simples e intuitiva, o usuário pode cadastrar, visualizar e g
 
 ---
 
-##📱 Tecnologias Utilizadas
+## 📱 Tecnologias Utilizadas
 
 Apache Cordova → para empacotar o código web em aplicativo mobile.
 
